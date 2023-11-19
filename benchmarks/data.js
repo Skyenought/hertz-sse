@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700407198455,
+  "lastUpdate": 1700408206925,
   "repoUrl": "https://github.com/Skyenought/hertz-sse",
   "entries": {
     "Benchmark": [
@@ -180,6 +180,60 @@ window.BENCHMARK_DATA = {
             "value": 165.9,
             "unit": "ns/op\t      76 B/op\t       5 allocs/op",
             "extra": "7328230 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "skyenought@qq.com",
+            "name": "Skyenought",
+            "username": "Skyenought"
+          },
+          "committer": {
+            "email": "skyenought@qq.com",
+            "name": "Skyenought",
+            "username": "Skyenought"
+          },
+          "distinct": true,
+          "id": "6b2627e9d090a035b56ea0207d3fbe691541058a",
+          "message": "update benchmarks",
+          "timestamp": "2023-11-19T23:35:52+08:00",
+          "tree_id": "e408df0d242ff5a17f7f0105ca3686dc530a6e51",
+          "url": "https://github.com/Skyenought/hertz-sse/commit/6b2627e9d090a035b56ea0207d3fbe691541058a"
+        },
+        "date": 1700408206013,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkFullSSE",
+            "value": 307.5,
+            "unit": "ns/op\t      96 B/op\t       9 allocs/op",
+            "extra": "4300359 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkNoRetrySSE",
+            "value": 255,
+            "unit": "ns/op\t      85 B/op\t       7 allocs/op",
+            "extra": "4754108 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkSimpleSSE",
+            "value": 1000408387,
+            "unit": "ns/op\t     352 B/op\t       8 allocs/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkNewStream",
+            "value": 121.5,
+            "unit": "ns/op\t      80 B/op\t       2 allocs/op",
+            "extra": "9878322 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkStream_Publish",
+            "value": 167.6,
+            "unit": "ns/op\t      76 B/op\t       5 allocs/op",
+            "extra": "7256198 times\n4 procs"
           }
         ]
       }
