@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700402710275,
+  "lastUpdate": 1700403911177,
   "repoUrl": "https://github.com/Skyenought/hertz-sse",
   "entries": {
     "Benchmark": [
@@ -42,6 +42,48 @@ window.BENCHMARK_DATA = {
             "value": 186.9,
             "unit": "ns/op\t      80 B/op\t       5 allocs/op",
             "extra": "6406281 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "skyenought@qq.com",
+            "name": "Skyenought",
+            "username": "Skyenought"
+          },
+          "committer": {
+            "email": "skyenought@qq.com",
+            "name": "Skyenought",
+            "username": "Skyenought"
+          },
+          "distinct": true,
+          "id": "77e3105a32d10468b2758c04118a6007a10e3f37",
+          "message": "update readme",
+          "timestamp": "2023-11-19T22:24:22+08:00",
+          "tree_id": "765e43b4acdeabcd157e0c6d691d35cbbd9c249d",
+          "url": "https://github.com/Skyenought/hertz-sse/commit/77e3105a32d10468b2758c04118a6007a10e3f37"
+        },
+        "date": 1700403910718,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkFullSSE",
+            "value": 276.5,
+            "unit": "ns/op\t      96 B/op\t       9 allocs/op",
+            "extra": "4226518 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkNoRetrySSE",
+            "value": 248.3,
+            "unit": "ns/op\t      85 B/op\t       7 allocs/op",
+            "extra": "4824036 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkSimpleSSE",
+            "value": 186.8,
+            "unit": "ns/op\t      80 B/op\t       5 allocs/op",
+            "extra": "6422462 times\n4 procs"
           }
         ]
       }
